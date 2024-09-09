@@ -1,0 +1,6 @@
+{
+    "json.trace.server": "verbose",
+    "npm.enableRunFromFolder": true,
+    "redHatDependencyAnalytics.enablePythonBestEffortsInstallation": true,
+    "tailwindcss-intellisense.trace.server": "verbose"
+}
