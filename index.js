@@ -34,10 +34,10 @@ console.log(`${bpm}`);
 // #### Challenge 4: Temperature Suitability
 
 
+
 let currentTemp = 4; // Current temperature in °C
-const temperatureSuitability =
-  currentTemp >= 5 ? "Needs a cooler!" : "Chilled to perfection!";
-console.log(`${temperatureSuitability}`);
+const TempCheck = currentTemp <= 5 ? `Chilled to perfection!` : `Needs a cooler!`;
+console.log(TempCheck);
 
 
 
