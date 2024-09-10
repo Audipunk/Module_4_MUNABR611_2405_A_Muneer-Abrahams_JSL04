@@ -26,7 +26,7 @@ console.log(`${canStock}`);
 
 
 
-let heartRate = 95; // Current heart rate in bpm
+let heartRate = 99; // Current heart rate in bpm
 const bpm = heartRate < 100 ? "Boost needed!" : "Energy levels are high!";
 console.log(`${bpm}`);
 
@@ -46,6 +46,6 @@ const currentDate = new Date();
 let currentHour = currentDate.getHours();
 
 const monsterTime = 
-currentHour >= 7 && currentHour <= 23
-
+currentHour >= 7 && currentHour <= 23 ? `Unleash the beast!` : `Better stick to water.`
+console.log(monsterTime);
 
