@@ -10,8 +10,8 @@
       "Custom Init": {
         "path": "pwsh.exe",
         "args": {
-           "-noexit",
-           "-file",
+           "-noexit"
+           "-file"
            "${env:APPDATA}\\PowerShell\\custom-init.ps1"
       }
       }
