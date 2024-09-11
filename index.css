@@ -6,8 +6,7 @@ body, p {
 }
 
 body {
-   /* background-image: url('jitters.gif');
-   /*
+    background-image: url('jitters.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; /* Center the background image */
