@@ -4,8 +4,10 @@
     "redHatDependencyAnalytics.enablePythonBestEffortsInstallation": true,
     "tailwindcss-intellisense.trace.server": "verbose"
 }
-    "terminal.integrated.profiles.windows": {
-      "Custom Init": {
+
+{
+    "terminal.integrated.profiles.windows": 
+      "Custom Init" {
         "path": "pwsh.exe",
         "args": {
            "-noexit"
