@@ -4,13 +4,13 @@
 
 
 
-let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
+let userPreference = 'Sugar-free';
 function checkPreferred() {
-  return userPreference === "Regular"
-    ? `${userPreference}`
-    : userPreference === "Sugar-free"
-    ? `${userPreference}`
-    : "Unknown-flavor";
+  return userPreference === "Regular" ?
+  `${userPreference}` :
+  userPreference === "Sugar-free" ?
+  `${userPreference}` :
+  "Unknown-flavor";
 }
 
 console.log(`User prefers: ${checkPreferred()}`);
@@ -45,7 +45,6 @@ console.log(TempCheck);
 const currentDate = new Date();
 let currentHour = currentDate.getHours();
 
-const monsterTime = 
-currentHour >= 7 && currentHour <= 23 ? `Unleash the beast!` : `Better stick to water.`
+const monsterTime =
+currentHour >= 7 && currentHour <= 23 ? `Unleash the beast!` : `Better stick to water.`;
 console.log(monsterTime);
-
