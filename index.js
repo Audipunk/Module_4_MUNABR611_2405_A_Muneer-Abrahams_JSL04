@@ -19,7 +19,7 @@ console.log(`User prefers: ${checkPreferred()}`);
 
 let cansLeft = 3; // Any number of cans
 const canStock = cansLeft <= 5 ? "Time to restock!" : "We're stocked!";
-console.log(`${canStock}`);
+console.log("${canStock}");
 
 
 // #### Challenge 3: Workout Intensity
