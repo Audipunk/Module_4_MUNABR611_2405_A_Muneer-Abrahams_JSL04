@@ -36,15 +36,16 @@ console.log(`${bpm}`);
 
 
 let currentTemp = 4; // Current temperature in °C
-const TempCheck = currentTemp <= 5 ? `Chilled to perfection!` : `Needs a cooler!`;
+const TempCheck = currentTemp <= 5 ? "Chilled to perfection!" : "Needs a cooler!";
 console.log(TempCheck);
 
 
 
 // #### Challenge 5: Late Night Coding Session
-const currentDate = new Date();
 let currentHour = currentDate.getHours();
+const currentDate = new Date();
+
 
 const monsterTime =
-currentHour >= 7 && currentHour <= 23 ? `Unleash the beast!` : `Better stick to water.`;
+currentHour >= 7 && currentHour <= 23 ? "Unleash the beast!" : "Better stick to water.";
 console.log(monsterTime);
